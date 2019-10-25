@@ -1,7 +1,7 @@
 import React from 'react'
 import { FlatList, Text, TouchableOpacity } from 'react-native'
 
-import pokemon from './config/pokemon'
+import pokemon from '../../config/pokemon'
 
 const Home = props => {
 

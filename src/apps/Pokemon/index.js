@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Image, Platform, Share, Text, View } from 'react-native'
 
-import { Link } from './routing'
+import { Link } from '../../routing'
 
 const Pokemon = props => {
   const { pokemon } = props
