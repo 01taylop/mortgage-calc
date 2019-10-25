@@ -3,6 +3,7 @@ import { SafeAreaView, StatusBar, StyleSheet, View } from 'react-native'
 
 import { Route, Router, Switch } from './routing'
 
+import Header from './components/Header'
 import Home from './apps/Home'
 import Pokemon from './apps/Pokemon'
 
@@ -23,9 +24,10 @@ export default class App extends React.Component {
 
     return (
       <>
-        <SafeAreaView style={{ flex: 0, backgroundColor: '#320b86' }} />
+        <SafeAreaView style={{ flex: 0, backgroundColor: '#3700B3' }} />
         <SafeAreaView style={{ flex: 1, backgroundColor: '#F5F5F6' }}>
           <StatusBar barStyle='light-content'/>
+          <Header/>
           <View style={styles.container}>
             <Router>
               <Switch>
