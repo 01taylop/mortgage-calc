@@ -1,7 +1,9 @@
 {
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
+    "build-web": "react-scripts build",
     "start": "expo start",
+    "start-web": "react-scripts start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
@@ -24,5 +26,17 @@
     "babel-preset-expo": "7.1.0",
     "typescript": "3.6.3"
   },
-  "private": true
+  "private": true,
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
