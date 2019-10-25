@@ -30,8 +30,7 @@ const Pokemon = props => {
 
   return (
     <>
-      <Text>{`#${pokemon.number}`}</Text>
-      <Text>{`Name: ${pokemon.name}`}</Text>
+      <Text>{`#${pokemon.number}: ${pokemon.name}`}</Text>
       <Text>{`Type: ${pokemon.type}`}</Text>
       <Image style={{ width: 50, height: 50 }} source={{ uri: pokemon.photoUrl }}/>
       {Platform.OS !== 'web' && <Button title='Share' onPress={handleShare}/>}
