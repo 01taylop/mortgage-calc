@@ -1,5 +1,6 @@
 import React from 'react'
-import { SafeAreaView, StatusBar, StyleSheet, View } from 'react-native'
+import { Platform, SafeAreaView, StatusBar, StyleSheet, View } from 'react-native'
+import { AdMobBanner } from 'expo-ads-admob'
 
 import { Route, Router, Switch } from './routing'
 
@@ -19,6 +20,10 @@ export default class App extends React.Component {
     })
   }
 
+  bannerError = error => {
+    console.log(error)
+  }
+
   render() {
     const { selectedPokemon } = this.state
 
@@ -35,6 +40,20 @@ export default class App extends React.Component {
                 <Route path='/pokemon' render={props => <Pokemon pokemon={selectedPokemon} {...props}/>}/>
               </Switch>
             </Router>
+            {Platform.OS === 'ios' && (
+              <AdMobBanner
+              bannerSize="smartBannerPortrait"
+              adUnitID="ca-app-pub-3940256099942544/2934735716" //ca-app-pub-3920784353661442/3332379776
+              testDeviceID="EMULATOR"
+              onDidFailToReceiveAdWithError={this.bannerError}/>
+            )}
+            {Platform.OS === 'android' && (
+              <AdMobBanner
+              bannerSize="smartBannerPortrait"
+              adUnitID="ca-app-pub-3940256099942544/2934735716" //ca-app-pub-3920784353661442/6340513036
+              testDeviceID="EMULATOR"
+              onDidFailToReceiveAdWithError={this.bannerError}/>
+            )}
           </View>
         </SafeAreaView>
       </>

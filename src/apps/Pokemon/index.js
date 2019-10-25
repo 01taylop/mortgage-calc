@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Image, Platform, Share, Text, View } from 'react-native'
+import { Button, Image, Platform, Share, StyleSheet, Text, View } from 'react-native'
 
 import { Link } from '../../routing'
 
@@ -29,14 +29,22 @@ const Pokemon = props => {
   }
 
   return (
-    <>
+    <View style={styles.container}>
       <Text>{`#${pokemon.number}: ${pokemon.name}`}</Text>
       <Text>{`Type: ${pokemon.type}`}</Text>
       <Image style={{ width: 50, height: 50 }} source={{ uri: pokemon.photoUrl }}/>
       {Platform.OS !== 'web' && <Button title='Share' onPress={handleShare}/>}
       {backButton}
-    </>
+    </View>
   )
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+})
 
 export default Pokemon
