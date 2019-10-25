@@ -43,14 +43,14 @@ export default class App extends React.Component {
             {Platform.OS === 'ios' && (
               <AdMobBanner
               bannerSize="smartBannerPortrait"
-              adUnitID="ca-app-pub-3940256099942544/2934735716" //ca-app-pub-3920784353661442/3332379776
+              adUnitID={__DEV__ ? "ca-app-pub-3940256099942544/2934735716" : "ca-app-pub-3920784353661442/3332379776"}
               testDeviceID="EMULATOR"
               onDidFailToReceiveAdWithError={this.bannerError}/>
             )}
             {Platform.OS === 'android' && (
               <AdMobBanner
               bannerSize="smartBannerPortrait"
-              adUnitID="ca-app-pub-3940256099942544/2934735716" //ca-app-pub-3920784353661442/6340513036
+              adUnitID={__DEV__ ? "ca-app-pub-3940256099942544/2934735716" : "ca-app-pub-3920784353661442/6340513036"}
               testDeviceID="EMULATOR"
               onDidFailToReceiveAdWithError={this.bannerError}/>
             )}
