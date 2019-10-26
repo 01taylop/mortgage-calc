@@ -60,12 +60,12 @@ self.__precacheManifest = [
     "url": "/mortgage-calc/serve.json"
   },
   {
-    "revision": "7a7bc7ead25db795e58b336f04d2624c",
-    "url": "/mortgage-calc/favicon.ico"
-  },
-  {
     "revision": "5e695e96a003a79f7f97060bf49409a9",
     "url": "/mortgage-calc/expo-service-worker.js"
+  },
+  {
+    "revision": "7a7bc7ead25db795e58b336f04d2624c",
+    "url": "/mortgage-calc/favicon.ico"
   },
   {
     "revision": "020fd499a2d2bc45c4c3b6021e472b43",
