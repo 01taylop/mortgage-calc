@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/mortgage-calc/precache-manifest.fce479efa26fd3f1df949ee03b2e52df.js"
+  "/precache-manifest.a2c7fada30ad10e6280e55ce1de99fe4.js"
 );
 
 workbox.skipWaiting();
