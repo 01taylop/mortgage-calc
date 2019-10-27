@@ -40,6 +40,9 @@ export default class App extends React.Component {
                 <Route path='/pokemon' render={props => <Pokemon pokemon={selectedPokemon} {...props}/>}/>
               </Switch>
             </Router>
+            {Platform.OS === 'web' && (
+              <p>Web Advert</p>
+            )}
             {Platform.OS === 'ios' && (
               <AdMobBanner
               bannerSize="smartBannerPortrait"
