@@ -1,0 +1,22 @@
+{
+  "short_name": "Mortgage Calc",
+  "name": "Mortgage Calculator",
+  "description": "A useful calculator to work out your Help to Buy calculations.",
+  "icons": [
+    {
+      "src": "./assets/icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./assets/icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#6200EE",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#6200EE"
+}
