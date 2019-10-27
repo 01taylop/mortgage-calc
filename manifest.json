@@ -1,14 +1,14 @@
 {
   "background_color": "#ffffff",
-  "description": "A Neat Expo App",
+  "description": "A useful calculator to work out your Help to Buy calculations.",
   "dir": "auto",
   "display": "standalone",
   "lang": "en",
-  "name": "Mortgage Calc",
+  "name": "Mortgage Calculator",
   "orientation": "portrait",
   "prefer_related_applications": true,
   "related_applications": [],
-  "short_name": "Mortgage Calc",
+  "short_name": "Mortgage Calculator",
   "start_url": ".",
   "theme_color": "#4630EB",
   "icons": [

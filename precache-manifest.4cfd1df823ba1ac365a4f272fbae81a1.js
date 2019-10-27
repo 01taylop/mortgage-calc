@@ -8,8 +8,8 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~app.306130d3.js"
   },
   {
-    "revision": "13c49a38a05d86d2aa9e",
-    "url": "/static/js/2.c2137826.chunk.js"
+    "revision": "f6f4b43fd7440f5c9304",
+    "url": "/static/js/2.31dbae8e.chunk.js"
   },
   {
     "revision": "5a293a273bee8d740a045d9922b9a9ae",
@@ -64,11 +64,11 @@ self.__precacheManifest = [
     "url": "/favicon.ico"
   },
   {
-    "revision": "dd88fd04e240bc667a7e9e3682998dd7",
+    "revision": "77e482505d078a892e2262f5805816c0",
     "url": "/manifest.json"
   },
   {
-    "revision": "bb7e8cd56ccd5b0f9ab29bba6c29c435",
+    "revision": "6c69008d621eb64d6bf4071472d902f9",
     "url": "/index.html"
   },
   {
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~app.306130d3.js.gz"
   },
   {
-    "revision": "c8b82e427a935e4743c20061e27026cb",
-    "url": "/static/js/2.c2137826.chunk.js.gz"
+    "revision": "5fb1be573e6de04ed470ad7c6a52d361",
+    "url": "/static/js/2.31dbae8e.chunk.js.gz"
   }
 ];
