@@ -1,6 +1,7 @@
 {
   "expo": {
-    "name": "Mortgage Calc",
+    "name": "Mortgage Calculator",
+    "description": "A useful calculator to work out your Help to Buy calculations.",
     "slug": "mortgage-calc",
     "privacy": "public",
     "sdkVersion": "35.0.0",
