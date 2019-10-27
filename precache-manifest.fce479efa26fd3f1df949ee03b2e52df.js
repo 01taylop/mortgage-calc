@@ -56,20 +56,20 @@ self.__precacheManifest = [
     "url": "/mortgage-calc/./fonts/SimpleLineIcons.ttf"
   },
   {
-    "revision": "020fd499a2d2bc45c4c3b6021e472b43",
-    "url": "/mortgage-calc/register-service-worker.js"
+    "revision": "7a7bc7ead25db795e58b336f04d2624c",
+    "url": "/mortgage-calc/favicon.ico"
   },
   {
     "revision": "d0c694b562b2208635f250762cd7fc79",
     "url": "/mortgage-calc/serve.json"
   },
   {
-    "revision": "7a7bc7ead25db795e58b336f04d2624c",
-    "url": "/mortgage-calc/favicon.ico"
-  },
-  {
     "revision": "5e695e96a003a79f7f97060bf49409a9",
     "url": "/mortgage-calc/expo-service-worker.js"
+  },
+  {
+    "revision": "020fd499a2d2bc45c4c3b6021e472b43",
+    "url": "/mortgage-calc/register-service-worker.js"
   },
   {
     "revision": "f3fbf97e71c9a53f0df0fac6b9687412",
