@@ -1,5 +1,5 @@
 import React from 'react'
-import { Platform, SafeAreaView, StatusBar, StyleSheet, View } from 'react-native'
+import { Platform, SafeAreaView, StatusBar, StyleSheet, Text, View } from 'react-native'
 import { AdMobBanner } from 'expo-ads-admob'
 
 import { Route, Router, Switch } from './routing'
@@ -41,7 +41,7 @@ export default class App extends React.Component {
               </Switch>
             </Router>
             {Platform.OS === 'web' && (
-              <p>Web Advert</p>
+              <Text>Web Advert</Text>
             )}
             {Platform.OS === 'ios' && (
               <AdMobBanner
